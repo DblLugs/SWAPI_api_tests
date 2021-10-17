@@ -4,7 +4,7 @@ API для тестов взято с ресурса https://swapi.dev/.
 python3 -m venv venv  
 source venv/bin/activate  
 pip install -r requirements.txt  
-pytest -v --alluredir allure_report  
+pytest --alluredir allure_report  
 allure serve allure_report  
 
 
